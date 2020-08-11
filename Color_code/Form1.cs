@@ -86,26 +86,33 @@ namespace Color_code
             pictureBox1.Image = bitmap;
 
             pictureBox1.Refresh();
-
-
-            Bitmap img = new Bitmap("ex.jpg");
-
-            Bitmap newImg = new Bitmap(img);
-
-            for(int i = 0; i < img.Width; i++)
-            {
-                for (int j = 0; j < img.Height; j++)
-                {
-                    int R = img.GetPixel(i, j).R;
-                    newImg.SetPixel(i, j, ColorMap((((double)R / 255) * 2) - 1));
-                }
-            }
-
-            pictureBox2.Image = newImg;
-
-            pictureBox2.Refresh();
         }
 
-        
+        private void BtnStart_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Bitmap img = new Bitmap(txtBoxPath.Text);
+
+                Bitmap newImg = new Bitmap(img);
+
+                for (int i = 0; i < img.Width; i++)
+                {
+                    for (int j = 0; j < img.Height; j++)
+                    {
+                        int R = img.GetPixel(i, j).R;
+                        newImg.SetPixel(i, j, ColorMap((((double)R / 255) * 2) - 1));
+                    }
+                }
+                Bitmap resized = new Bitmap(newImg, pictureBox2.Width, pictureBox2.Height);
+                pictureBox2.Image = resized;
+
+                pictureBox2.Refresh();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

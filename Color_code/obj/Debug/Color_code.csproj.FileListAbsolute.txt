@@ -18,3 +18,12 @@ C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\ColorCode\Color_code\obj
 C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\ColorCode\Color_code\obj\Debug\Color_code.csproj.CoreCompileInputs.cache
 C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\ColorCode\Color_code\obj\Debug\Color_code.exe
 C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\ColorCode\Color_code\obj\Debug\Color_code.pdb
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\bin\Debug\Color_code.exe.config
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\bin\Debug\Color_code.exe
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\bin\Debug\Color_code.pdb
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.Form1.resources
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.Properties.Resources.resources
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.csproj.GenerateResource.cache
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.csproj.CoreCompileInputs.cache
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.exe
+C:\Users\Kavinda Ravishan\source\repos\kavinda-ravishan\color-code\Color_code\obj\Debug\Color_code.pdb
